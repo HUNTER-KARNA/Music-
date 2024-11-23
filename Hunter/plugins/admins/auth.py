@@ -2,15 +2,15 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS, adminlist
-from HydraMusic import app
-from HydraMusic.utils.database import (
+from Hunter import app
+from Hunter.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from HydraMusic.utils.decorators import AdminActual, language
-from HydraMusic.utils.formatters import int_to_alpha
+from Hunter.utils.decorators import AdminActual, language
+from Hunter.utils.formatters import int_to_alpha
 from strings import get_command
 
 # Command
