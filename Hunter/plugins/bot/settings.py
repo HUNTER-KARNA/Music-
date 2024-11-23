@@ -8,8 +8,8 @@ from pyrogram.types import (
 )
 
 from config import BANNED_USERS, CLEANMODE_DELETE_MINS, MUSIC_BOT_NAME, OWNER_ID
-from HydraMusic import app
-from HydraMusic.utils.database import (
+from Hunter import app
+from Hunter.utils.database import (
     add_nonadmin_chat,
     cleanmode_off,
     cleanmode_on,
@@ -33,9 +33,9 @@ from HydraMusic.utils.database import (
     suggestion_off,
     suggestion_on,
 )
-from HydraMusic.utils.decorators.admins import ActualAdminCB
-from HydraMusic.utils.decorators.language import language, languageCB
-from HydraMusic.utils.inline.settings import (
+from Hunter.utils.decorators.admins import ActualAdminCB
+from Hunter.utils.decorators.language import language, languageCB
+from Hunter.utils.inline.settings import (
     audio_quality_markup,
     auth_users_markup,
     cleanmode_settings_markup,
@@ -43,7 +43,7 @@ from HydraMusic.utils.inline.settings import (
     setting_markup,
     video_quality_markup,
 )
-from HydraMusic.utils.inline.start import private_panel
+from Hunter.utils.inline.start import private_panel
 from strings import get_command
 
 ### Command
