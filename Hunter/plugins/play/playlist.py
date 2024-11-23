@@ -6,21 +6,21 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS, SERVER_PLAYLIST_LIMIT
-from HydraMusic import Carbon, YouTube, app
-from HydraMusic.utils.database import (
+from Hunter import Carbon, YouTube, app
+from Hunter.utils.database import (
     delete_playlist,
     get_playlist,
     get_playlist_names,
     save_playlist,
 )
-from HydraMusic.utils.decorators.language import language, languageCB
-from HydraMusic.utils.inline.playlist import (
+from Hunter.utils.decorators.language import language, languageCB
+from Hunter.utils.inline.playlist import (
     botplaylist_markup,
     get_playlist_markup,
     warning_markup,
 )
-from HydraMusic.utils.pastebin import Hydrabin
-from HydraMusic.utils.stream.stream import stream
+from Hunter.utils.pastebin import Hydrabin
+from Hunter.utils.stream.stream import stream
 from strings import get_command
 
 # Command
