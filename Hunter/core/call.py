@@ -38,10 +38,10 @@ from HydraMusic.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from HydraMusic.utils.exceptions import AssistantErr
-from HydraMusic.utils.inline.play import stream_markup, telegram_markup
-from HydraMusic.utils.stream.autoclear import auto_clean
-from HydraMusic.utils.thumbnails import gen_thumb
+from Hunter.utils.exceptions import AssistantErr
+from Hunter.utils.inline.play import stream_markup, telegram_markup
+from Hunter.utils.stream.autoclear import auto_clean
+from Hunter.utils.thumbnails import gen_thumb
 from strings import get_string
 
 autoend = {}
