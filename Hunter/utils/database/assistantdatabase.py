@@ -1,7 +1,7 @@
 import random
 
-from HydraMusic import userbot
-from HydraMusic.core.mongo import mongodb
+from Hunter import userbot
+from Hunter.core.mongo import mongodb
 
 db = mongodb.assistants
 
