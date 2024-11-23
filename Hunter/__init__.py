@@ -1,8 +1,8 @@
-from HydraMusic.core.bot import HydraBot
-from HydraMusic.core.dir import dirr
-from HydraMusic.core.git import git
-from HydraMusic.core.userbot import Userbot
-from HydraMusic.misc import dbb, heroku, sudo
+from Hunter.core.bot import HydraBot
+from Hunter.core.dir import dirr
+from Hunter.core.git import git
+from Hunter.core.userbot import Userbot
+from Hunter.misc import dbb, heroku, sudo
 
 from .logging import LOGGER
 
