@@ -14,15 +14,15 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from HydraMusic import app
-from HydraMusic.misc import HAPP, SUDOERS, XCB
-from HydraMusic.utils.database import (
+from Hunter import app
+from Hunter.misc import HAPP, SUDOERS, XCB
+from Hunter.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from HydraMusic.utils.decorators.language import language
-from HydraMusic.utils.pastebin import Hydrabin
+from Hunter.utils.decorators.language import language
+from Hunter.utils.pastebin import Hydrabin
 from strings import get_command
 
 # Commands
