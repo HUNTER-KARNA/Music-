@@ -2,10 +2,10 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS
-from HydraMusic import app
-from HydraMusic.core.call import Hydra
-from HydraMusic.utils.database import is_muted, mute_off
-from HydraMusic.utils.decorators import AdminRightsCheck
+from Hunter import app
+from Hunter.core.call import Hydra
+from Hunter.utils.database import is_muted, mute_off
+from Hunter.utils.decorators import AdminRightsCheck
 from strings import get_command
 
 # Commands
