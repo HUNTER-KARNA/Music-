@@ -7,10 +7,10 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from config import BANNED_USERS
-from HydraMusic import LOGGER, app, userbot
-from HydraMusic.core.call import Hydra
-from HydraMusic.plugins import ALL_MODULES
-from HydraMusic.utils.database import get_banned_users, get_gbanned
+from Hunter import LOGGER, app, userbot
+from Hunter.core.call import Hydra
+from Hunter.plugins import ALL_MODULES
+from Hunter.utils.database import get_banned_users, get_gbanned
 
 loop = asyncio.get_event_loop()
 
