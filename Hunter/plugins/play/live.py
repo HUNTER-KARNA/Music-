@@ -1,10 +1,10 @@
 from pyrogram import filters
 
 from config import BANNED_USERS
-from HydraMusic import YouTube, app
-from HydraMusic.utils.channelplay import get_channeplayCB
-from HydraMusic.utils.decorators.language import languageCB
-from HydraMusic.utils.stream.stream import stream
+from Hunter import YouTube, app
+from Hunter.utils.channelplay import get_channeplayCB
+from Hunter.utils.decorators.language import languageCB
+from Hunter.utils.stream.stream import stream
 
 
 @app.on_callback_query(filters.regex("LiveStream") & ~BANNED_USERS)
