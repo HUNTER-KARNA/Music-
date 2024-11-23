@@ -2,10 +2,10 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS
-from HydraMusic import YouTube, app
-from HydraMusic.core.call import Hydra
-from HydraMusic.misc import db
-from HydraMusic.utils import AdminRightsCheck, seconds_to_min
+from Hunter import YouTube, app
+from Hunter.core.call import Hydra
+from Hunter.misc import db
+from Hunter.utils import AdminRightsCheck, seconds_to_min
 from strings import get_command
 
 # Commands
