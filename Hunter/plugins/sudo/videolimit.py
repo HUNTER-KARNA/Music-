@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from HydraMusic import app
-from HydraMusic.misc import SUDOERS
-from HydraMusic.utils.database import set_video_limit
-from HydraMusic.utils.decorators.language import language
+from Hunter import app
+from Hunter.misc import SUDOERS
+from Hunter.utils.database import set_video_limit
+from Hunter.utils.decorators.language import language
 from strings import get_command
 
 VIDEOLIMIT_COMMAND = get_command("VIDEOLIMIT_COMMAND")
