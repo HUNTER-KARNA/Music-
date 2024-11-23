@@ -3,8 +3,8 @@ import asyncio
 import speedtest
 from pyrogram import filters
 
-from HydraMusic import app
-from HydraMusic.misc import SUDOERS
+from Hunter import app
+from Hunter.misc import SUDOERS
 from strings import get_command
 
 # Commands
