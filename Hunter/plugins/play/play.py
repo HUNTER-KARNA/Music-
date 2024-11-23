@@ -7,23 +7,23 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from config import BANNED_USERS, lyrical
-from HydraMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from HydraMusic.core.call import Hydra
-from HydraMusic.utils import seconds_to_min, time_to_seconds
-from HydraMusic.utils.channelplay import get_channeplayCB
-from HydraMusic.utils.database import is_video_allowed
-from HydraMusic.utils.decorators.language import languageCB
-from HydraMusic.utils.decorators.play import PlayWrapper
-from HydraMusic.utils.formatters import formats
-from HydraMusic.utils.inline.play import (
+from Hunter import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from Hunter.core.call import Hydra
+from Hunter.utils import seconds_to_min, time_to_seconds
+from Hunter.utils.channelplay import get_channeplayCB
+from Hunter.utils.database import is_video_allowed
+from Hunter.utils.decorators.language import languageCB
+from Hunter.utils.decorators.play import PlayWrapper
+from Hunter.utils.formatters import formats
+from Hunter.utils.inline.play import (
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from HydraMusic.utils.inline.playlist import botplaylist_markup
-from HydraMusic.utils.logger import play_logs
-from HydraMusic.utils.stream.stream import stream
+from Hunter.utils.inline.playlist import botplaylist_markup
+from Hunter.utils.logger import play_logs
+from Hunter.utils.stream.stream import stream
 from strings import get_command
 
 # Command
