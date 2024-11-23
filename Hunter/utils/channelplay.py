@@ -1,5 +1,5 @@
-from HydraMusic import app
-from HydraMusic.utils.database import get_cmode
+from Hunter import app
+from Hunter.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
