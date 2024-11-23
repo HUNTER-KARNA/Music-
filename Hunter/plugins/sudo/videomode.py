@@ -2,10 +2,10 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 import config
-from HydraMusic import app
-from HydraMusic.misc import SUDOERS
-from HydraMusic.utils.database import add_off, add_on
-from HydraMusic.utils.decorators.language import language
+from Hunter import app
+from Hunter.misc import SUDOERS
+from Hunter.utils.database import add_off, add_on
+from Hunter.utils.decorators.language import language
 from strings import get_command
 
 # Commands
