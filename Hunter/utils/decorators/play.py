@@ -1,9 +1,9 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import PLAYLIST_IMG_URL, PRIVATE_BOT_MODE, adminlist
-from HydraMusic import YouTube, app
-from HydraMusic.misc import SUDOERS
-from HydraMusic.utils.database import (
+from Hunter import YouTube, app
+from Hunter.misc import SUDOERS
+from Hunter.utils.database import (
     get_cmode,
     get_lang,
     get_playmode,
@@ -12,8 +12,8 @@ from HydraMusic.utils.database import (
     is_commanddelete_on,
     is_served_private_chat,
 )
-from HydraMusic.utils.database.memorydatabase import is_maintenance
-from HydraMusic.utils.inline.playlist import botplaylist_markup
+from Hunter.utils.database.memorydatabase import is_maintenance
+from Hunter.utils.inline.playlist import botplaylist_markup
 from strings import get_string
 
 
