@@ -4,12 +4,12 @@ from pyrogram import filters
 from pyrogram.types import CallbackQuery, Message
 
 from config import BANNED_USERS, MUSIC_BOT_NAME, adminlist, lyrical
-from HydraMusic import app
-from HydraMusic.core.call import Hydra
-from HydraMusic.misc import db
-from HydraMusic.utils.database import get_authuser_names, get_cmode
-from HydraMusic.utils.decorators import ActualAdminCB, AdminActual, language
-from HydraMusic.utils.formatters import alpha_to_int
+from Hunter import app
+from Hunter.core.call import Hydra
+from Hunter.misc import db
+from Hunter.utils.database import get_authuser_names, get_cmode
+from Hunter.utils.decorators import ActualAdminCB, AdminActual, language
+from Hunter.utils.formatters import alpha_to_int
 from strings import get_command
 
 ### Multi-Lang Commands
