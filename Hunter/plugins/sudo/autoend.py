@@ -1,8 +1,8 @@
 from pyrogram import filters
 
-from HydraMusic import app
-from HydraMusic.misc import SUDOERS
-from HydraMusic.utils.database import autoend_off, autoend_on
+from Hunter import app
+from Hunter.misc import SUDOERS
+from Hunter.utils.database import autoend_off, autoend_on
 from strings import get_command
 
 # Commands
