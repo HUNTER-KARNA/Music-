@@ -1,6 +1,6 @@
 from config import LOG, LOG_GROUP_ID
-from HydraMusic import app
-from HydraMusic.utils.database import is_on_off
+from Hunter import app
+from Hunter.utils.database import is_on_off
 
 
 async def play_logs(message, streamtype):
