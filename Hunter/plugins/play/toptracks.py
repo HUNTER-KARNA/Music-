@@ -4,15 +4,15 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup
 
 from config import BANNED_USERS
-from HydraMusic import app
-from HydraMusic.utils.database import get_global_tops, get_particulars, get_userss
-from HydraMusic.utils.decorators.language import languageCB
-from HydraMusic.utils.inline.playlist import (
+from Hunter import app
+from Hunter.utils.database import get_global_tops, get_particulars, get_userss
+from Hunter.utils.decorators.language import languageCB
+from Hunter.utils.inline.playlist import (
     botplaylist_markup,
     failed_top_markup,
     top_play_markup,
 )
-from HydraMusic.utils.stream.stream import stream
+from Hunter.utils.stream.stream import stream
 
 loop = asyncio.get_running_loop()
 
