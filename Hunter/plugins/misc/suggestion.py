@@ -4,8 +4,8 @@ from datetime import datetime, timedelta
 
 import config
 from config import clean
-from HydraMusic import app
-from HydraMusic.utils.database import (
+from Hunter import app
+from Hunter.utils.database import (
     get_lang,
     get_private_served_chats,
     get_served_chats,
