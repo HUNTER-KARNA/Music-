@@ -2,10 +2,10 @@ import asyncio
 
 from pyrogram.types import InlineKeyboardMarkup
 
-from HydraMusic.misc import db
-from HydraMusic.utils.database import get_active_chats, get_lang, is_music_playing
-from HydraMusic.utils.formatters import seconds_to_min
-from HydraMusic.utils.inline import stream_markup_timer, telegram_markup_timer
+from Hunter.misc import db
+from Hunter.utils.database import get_active_chats, get_lang, is_music_playing
+from Hunter.utils.formatters import seconds_to_min
+from Hunter.utils.inline import stream_markup_timer, telegram_markup_timer
 from strings import get_string
 
 from ..admins.callback import wrong
