@@ -12,10 +12,10 @@ from config import (
     TELEGRAM_VIDEO_URL,
     adminlist,
 )
-from HydraMusic import YouTube, app
-from HydraMusic.core.call import Hydra
-from HydraMusic.misc import SUDOERS, db
-from HydraMusic.utils.database import (
+from Hunter import YouTube, app
+from Hunter.core.call import Hydra
+from Hunter.misc import SUDOERS, db
+from Hunter.utils.database import (
     is_active_chat,
     is_music_playing,
     is_muted,
@@ -26,17 +26,17 @@ from HydraMusic.utils.database import (
     mute_on,
     set_loop,
 )
-from HydraMusic.utils.decorators.language import languageCB
-from HydraMusic.utils.formatters import seconds_to_min
-from HydraMusic.utils.inline.play import (
+from Hunter.utils.decorators.language import languageCB
+from Hunter.utils.formatters import seconds_to_min
+from Hunter.utils.inline.play import (
     panel_markup_1,
     panel_markup_2,
     panel_markup_3,
     stream_markup,
     telegram_markup,
 )
-from HydraMusic.utils.stream.autoclear import auto_clean
-from HydraMusic.utils.thumbnails import gen_thumb
+from Hunter.utils.stream.autoclear import auto_clean
+from Hunter.utils.thumbnails import gen_thumb
 
 wrong = {}
 
