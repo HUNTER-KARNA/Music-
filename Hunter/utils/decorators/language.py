@@ -1,5 +1,5 @@
-from HydraMusic.misc import SUDOERS
-from HydraMusic.utils.database import get_lang, is_commanddelete_on, is_maintenance
+from Hunter.misc import SUDOERS
+from Hunter.utils.database import get_lang, is_commanddelete_on, is_maintenance
 from strings import get_string
 
 
