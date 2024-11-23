@@ -1,6 +1,6 @@
 from typing import Dict, List, Union
 
-from HydraMusic.core.mongo import mongodb
+from Hunter.core.mongo import mongodb
 
 queriesdb = mongodb.queries
 userdb = mongodb.userstats
