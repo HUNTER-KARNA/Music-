@@ -13,10 +13,10 @@ from pyrogram.types import (
 )
 
 from config import BANNED_USERS, SONG_DOWNLOAD_DURATION, SONG_DOWNLOAD_DURATION_LIMIT
-from HydraMusic import YouTube, app
-from HydraMusic.utils.decorators.language import language, languageCB
-from HydraMusic.utils.formatters import convert_bytes
-from HydraMusic.utils.inline.song import song_markup
+from Hunter import YouTube, app
+from Hunter.utils.decorators.language import language, languageCB
+from Hunter.utils.formatters import convert_bytes
+from Hunter.utils.inline.song import song_markup
 from strings import get_command
 
 # Command
