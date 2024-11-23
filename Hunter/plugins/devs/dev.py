@@ -10,8 +10,8 @@ from time import time
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from HydraMusic import app
-from HydraMusic.misc import SUDOERS
+from Hunter import app
+from Hunter.misc import SUDOERS
 
 
 async def aexec(code, client, message):
