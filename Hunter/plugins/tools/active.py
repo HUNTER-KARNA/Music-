@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from HydraMusic import app
-from HydraMusic.misc import SUDOERS
-from HydraMusic.utils.database.memorydatabase import (
+from Hunter import app
+from Hunter.misc import SUDOERS
+from Hunter.utils.database.memorydatabase import (
     get_active_chats,
     get_active_video_chats,
 )
