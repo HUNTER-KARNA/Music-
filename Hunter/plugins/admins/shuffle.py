@@ -4,9 +4,9 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS
-from HydraMusic import app
-from HydraMusic.misc import db
-from HydraMusic.utils.decorators import AdminRightsCheck
+from Hunter import app
+from Hunter.misc import db
+from Hunter.utils.decorators import AdminRightsCheck
 from strings import get_command
 
 # Commands
