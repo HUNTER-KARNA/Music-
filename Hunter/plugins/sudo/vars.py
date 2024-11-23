@@ -3,10 +3,10 @@ import asyncio
 from pyrogram import filters
 
 import config
-from HydraMusic import app
-from HydraMusic.misc import SUDOERS
-from HydraMusic.utils.database.memorydatabase import get_video_limit
-from HydraMusic.utils.formatters import convert_bytes
+from Hunter import app
+from Hunter.misc import SUDOERS
+from Hunter.utils.database.memorydatabase import get_video_limit
+from Hunter.utils.formatters import convert_bytes
 from strings import get_command
 
 VARS_COMMAND = get_command("VARS_COMMAND")
