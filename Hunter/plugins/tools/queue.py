@@ -7,12 +7,12 @@ from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
 from config import BANNED_USERS
-from HydraMusic import app
-from HydraMusic.misc import db
-from HydraMusic.utils import Hydrabin, get_channeplayCB, seconds_to_min
-from HydraMusic.utils.database import get_cmode, is_active_chat, is_music_playing
-from HydraMusic.utils.decorators.language import language, languageCB
-from HydraMusic.utils.inline import queue_back_markup, queue_markup
+from Hunter import app
+from Hunter.misc import db
+from Hunter.utils import Hydrabin, get_channeplayCB, seconds_to_min
+from Hunter.utils.database import get_cmode, is_active_chat, is_music_playing
+from Hunter.utils.decorators.language import language, languageCB
+from Hunter.utils.inline import queue_back_markup, queue_markup
 from strings import get_command
 
 ###Commands
