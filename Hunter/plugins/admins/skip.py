@@ -3,14 +3,14 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
 from config import BANNED_USERS
-from HydraMusic import YouTube, app
-from HydraMusic.core.call import Hydra
-from HydraMusic.misc import db
-from HydraMusic.utils.database import get_loop
-from HydraMusic.utils.decorators import AdminRightsCheck
-from HydraMusic.utils.inline.play import stream_markup, telegram_markup
-from HydraMusic.utils.stream.autoclear import auto_clean
-from HydraMusic.utils.thumbnails import gen_thumb
+from Hunter import YouTube, app
+from Hunter.core.call import Hydra
+from Hunter.misc import db
+from Hunter.utils.database import get_loop
+from Hunter.utils.decorators import AdminRightsCheck
+from Hunter.utils.inline.play import stream_markup, telegram_markup
+from Hunter.utils.stream.autoclear import auto_clean
+from Hunter.utils.thumbnails import gen_thumb
 from strings import get_command
 
 # Commands
