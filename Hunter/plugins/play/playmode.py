@@ -2,10 +2,10 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS
-from HydraMusic import app
-from HydraMusic.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from HydraMusic.utils.decorators import language
-from HydraMusic.utils.inline.settings import playmode_users_markup
+from Hunter import app
+from Hunter.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from Hunter.utils.decorators import language
+from Hunter.utils.inline.settings import playmode_users_markup
 from strings import get_command
 
 ### Commands
