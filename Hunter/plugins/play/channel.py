@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS
-from HydraMusic import app
-from HydraMusic.utils.database import set_cmode
-from HydraMusic.utils.decorators.admins import AdminActual
+from Hunter import app
+from Hunter.utils.database import set_cmode
+from Hunter.utils.decorators.admins import AdminActual
 from strings import get_command
 
 ### Multi-Lang Commands
